@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "pakages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "@storybook/builder-vite": "^7.0.9",
+    "turbo": "^1.9.3"
+  }
+}
